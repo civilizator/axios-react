@@ -12,7 +12,7 @@ class App extends React.Component {
         const user = e.target.username.value;
         axios.get(`https://api.github.com/users/${user}`)
             .then((res) => {
-                console.log(res);
+                 console.log(res);
             });
     };
 
